@@ -4,7 +4,6 @@ const { randomBytes } = require("crypto");
 const cors = require("cors");
 const axios = require("axios");
 
-//for commit
 const app = express();
 app.use(bodyParser.json());
 app.use(cors());

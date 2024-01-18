@@ -7,6 +7,7 @@ const app = express();
 app.use(bodyParser.json());
 app.use(cors());
 
+// to commit
 const posts = {};
 
 const handleEvent = (type, data) => {
